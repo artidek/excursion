@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Excursion</title>
-        <link rel="stylesheet" href="./resources/css/style.css">
-    </head>
-    <body>
-            <header>
-                <h1>Discover hidden places in the world around you</h1>
-                <div><a href="#">Download Excursion (Coming soon!)</a></div>
-                <div><video src="./resources/videos/excursion.mp4"></video></div>
-            </header>
-            <section id="about">
-                <h2>Your personal travel guide</h2>
+
+<head>
+    <title>Excursion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <div class="main-container flex-content centered-content vertical-flex">
+        <header class="container flex-content centered-content vertical-flex content-space">
+            <h1 class="header-color main-heading normal-font">Discover hidden places in the world around you</h1>
+            <div><a href="#">Download Excursion (Coming soon!)</a></div>
+            <div>
+                <video autoplay loop muted="true">
+                    <source src="./resources/videos/excursion.mp4">
+                </video>
+            </div>
+        </header>
+        <main  class="container flex-content centered-content vertical-flex content-space">
+            <section id="about" class="flex-content centered-content vertical-flex">
+                <h2 class="header-color second-heading normal-font">Your personal travel guide</h2>
                 <div>
-                    <div><p>Excursion remembers places you like, and recommends new points of interest around you</p></div>
-                    <div>
-                        <img src="./resources/images/camp.jpg" alt="">
-                    </div>
+                    <p class="paragraph-content ">Excursion remembers places you like, and recommends new points of interest around you</p>
                 </div>
-            </section>
-            <section id="app-download">
+                <div>
+                    <img src="./resources/images/camp.jpg" alt="">
+                </div>
+            </section> 
+            <section id="app-download" class="flex-content centered-content vertical-flex">
                 <div>
                     <img src="./resources/images/phone.png" alt="">
                 </div>
-                <h2>Coming Soon for iPhone and Android</h2>
+                <h2 class="header-color second-heading normal-font">Coming Soon for iPhone and Android</h2>
                 <div>
                     <a href="#">Download Excursion (Coming Soon!)</a>
                 </div>
             </section>
-            <footer>
-                <p>&copy; Excursion</p>
-            </footer>
-    </body>
+        </main>
+    </div>
+    <footer>
+        <p class="paragraph-content copyright">&copy; Excursion</p>
+    </footer>
+
+</body>
+
 </html>
